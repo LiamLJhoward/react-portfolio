@@ -1,0 +1,11 @@
+body {
+   font-family: 'GFS Didot', serif;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    float: right;
+    padding-right: 20%;
+    padding-top: 10%;
+}
