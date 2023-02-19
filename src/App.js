@@ -6,6 +6,8 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
+// import 'bootstrap/dist/css/bootstrap.css'
+// import { Navbar } from 'react-bootstrap'
 
 function App() {
   let Component

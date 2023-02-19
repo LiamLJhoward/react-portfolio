@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+}
+.card-title {
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+}
+
+.card-text {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5rem;
+    width:50%;
+    text-align:center;
+    margin: auto;
+}

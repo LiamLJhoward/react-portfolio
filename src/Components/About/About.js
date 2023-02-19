@@ -4,9 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 export default function About() {
   return (
-    <Card>
-      <Card.Title>About</Card.Title>
-      <Card.Body>Front end web developer & designer.<br>
+    <Card className='card-container'>
+      <Card.Body className='card-body'>Front end web developer.<br>
 
       </br>HTML/CSS.<br>
       </br>Javascript.<br>
