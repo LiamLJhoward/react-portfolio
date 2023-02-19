@@ -1,16 +1,35 @@
 
 import './App.css';
 import Navigation from './Components/Navigation/Navigation';
-import Header from './Components/Header/Header';
-import About from './Components/About/About'
+import About from './Components/About/About';
+import Home from './Components/Home/Home';
+import Projects from './Components/Projects/Projects';
+import Work from './Components/Work/Work';
+import Contact from './Components/Contact/Contact';
 
 function App() {
+  let Component
+  switch (window.location.pathname) {
+    case "/":
+      Component = Home
+      break
+    case "/about":
+      Component = About
+      break
+    case "/projects":
+      Component = Projects
+      break
+    case "/contact":
+      Component = Contact
+      break
+    
+  }
+
   return (
-    <div className="App">
+    <>
       <Navigation />
-      <Header />
-      <About />
-    </div>
+      <Component />
+      </>
   );
 }
 
