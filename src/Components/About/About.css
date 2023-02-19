@@ -1,16 +1,18 @@
 body {
     font-family: 'Sen', sans-serif;
     font-weight: 400;
-    text-align: center;
 }
 
-.card-container {
-    padding-top: 5%;
+.container-card {
+    padding-top: 10%;
+    font-family: 'Sen', sans-serif
 }
-
-
 .card-body {
-    font-family: 'Sen', sans-serif;
-    font-size: 3.5rem;
-    padding-top: 7.5%;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.25rem;
+}
+
+.front-end {
+    line-height: 3rem;
 }

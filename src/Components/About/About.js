@@ -4,14 +4,15 @@ import Card from 'react-bootstrap/Card';
 
 export default function About() {
   return (
-    <Card className='card-container'>
-      <Card.Body className='card-body'>Front end web developer.<br>
+    <>
+      <div className='container-card'>
+      <h3 className='card-body front-end'>Front end web developer.</h3>
 
-      </br>HTML/CSS.<br>
-      </br>Javascript.<br>
-      </br>React.
-</Card.Body>
-    </Card>
+      <h4 className='card-body'>HTML/CSS.</h4>
+      <h4 className='card-body'>Javascript.</h4>
+      <h4 className='card-body'>React.</h4>
+      </div>
+      </>
   );
 
 }
