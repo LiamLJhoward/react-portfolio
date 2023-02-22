@@ -10,6 +10,7 @@ import Contact from './Components/Contact/Contact';
 // import { Navbar } from 'react-bootstrap'
 
 function App() {
+  console.log(window.location.pathname);
   let Component
   switch (window.location.pathname) {
     case "/":
@@ -29,7 +30,6 @@ function App() {
 
   return (
     <>
-      <Home />
       <Navigation />
       <Component />
       </>
