@@ -1,0 +1,12 @@
+body {
+    background-color: #C6AF60;
+    font-family: 'Baskervville', serif;
+}
+
+h1 {
+    position: fixed;
+    top: 40%;
+    left: 38%;
+    font-size: 4rem;
+    font-style: italic;
+}
